@@ -1,0 +1,65 @@
+The Background Image & Front Paragraph:
+
+
+   <div class="carousel-inner mainImage">
+          <div class="carousel-item active firstImage row">
+            <div class="firstBox">
+                <p>A rustic natural interior design style known for simple forms, clean lines and uncomplicated finishes.<br><br>
+                    Accessorised with wooden rafters & flooring floor lamp, traditional wall painting,  is consciously sparse and sculptural pieces take precedence over ornamental designs.<br><br>
+                    Typically wood, colour and pattern, texture plays a key role in minimalist interiors.
+                </p>
+            </div>
+            <div class="secondBox">
+
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="Carouselthree.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="Carouseltwo.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+
+
+.caroMain{
+    position: relative;
+   
+    
+}
+
+.mainImage{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    
+}
+
+.firstImage{
+    width: 100%;
+    height: 600px;
+    margin: 0;
+    background: url(Carouselone.jpg);
+    background-size: 100%;
+}
+.firstBox{
+    width: 50%;
+    height: auto;
+
+}
+.firstBox p{
+    width: 50%;
+    border: solid 5px ghostwhite;
+    float: right;
+    margin-top: 10%;
+    font-size: 1.4em;
+    color: white;
+    padding: 1em;
+}
+
+.secondBox{
+    width: 50%;
+    height: auto;
+    
+   
+}

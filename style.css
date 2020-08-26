@@ -1,0 +1,529 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+
+html{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-size: calc(1em + 1vw);
+}
+body{
+    background-color: white;
+    width: 100%;
+    height: 3000px;
+    margin: 0;
+}
+
+
+
+.mainNav{
+    width: 100%;
+    height: auto;
+    
+    position: fixed;
+    
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+
+    
+}
+
+
+
+.mainNav img{
+    width: 8em;
+    height: 5em;
+    
+    
+    margin-left: 3%;
+}
+
+.navOptions{
+    width: 100%;
+    font-weight: bolder;
+    align-items: flex-end;
+    position: relative;
+    margin-left: 10%;
+    font-size: 0.7em;
+    opacity: 90%;
+    font-weight: bolder;
+    
+}
+.navOptions a{
+    margin-left: 20%;
+
+}
+
+
+.caroMain{
+    position: relative;
+    z-index: -1;
+}
+.caroMain img{
+    width: auto;
+    height: 900px;
+    position: relative;
+}
+
+
+
+.aboutCove{
+    width: 100%;
+    height: auto;
+}
+
+.aboutCove img{
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 3em;
+}
+
+.aboutCove h4{
+    width: 40%;
+    height: auto;
+    position: relative;
+    left: 30.5%;
+    text-align: center;
+    margin: 0;
+    font-size: 0.68em;
+    padding: 0;
+    position: relative;
+    padding-bottom: 1em;
+    
+    font-family: 'Fredoka One', cursive;
+}
+.aboutCove p{
+    width: 40%;
+    height: auto;
+   
+    position: relative;
+    left: 30.5%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.7em;
+}
+
+.ongoingProjects{
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+
+
+.ongoingProjects h2{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-top: 0.5em;
+    font-family: 'Patua One', cursive;
+    font-size: 1.5em;
+}
+
+.ongoingProjects img{
+    width: 100%;
+    height: 350px;
+    z-index: -1;
+}
+
+.projectTagline{
+    background-color: black;
+    opacity: 50%;
+    margin: 0;
+    padding: 0;
+    
+
+   
+    
+}
+.projectTagline h5{
+    font-size: 0.8em;
+}
+.services{
+    width: 60%;
+    height: 700px;
+    position: relative;
+    left: 20%;
+    
+}
+.services h2{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    padding-top: 0.7em;
+    font-family: 'Patua One', cursive;
+    font-size: 2em;
+    letter-spacing: 0.1em;
+    
+    
+    margin: 0;
+    padding: 0;
+    margin-top: 2em;
+    padding-bottom: 1em;
+    
+}
+
+
+.services img{
+    width: 100%;
+    height: 500px;
+}
+
+.sCards{
+    border: none
+}
+
+.card img{
+    width: 100%;
+    height: 250px;
+}
+
+.serviceCards{
+    width: 100%;
+    height: 500px;
+    
+    margin: 0;
+    padding: 0;
+    border: none;
+    
+}
+
+.mainimageCaption h5{
+    color: black;
+    font-weight: bolder;
+    font-family: 'Satisfy', cursive;
+    font-size: 4em;
+    position: relative;
+    top: -0.8em;
+    letter-spacing: 1px;
+}
+
+.card .btn{
+    width: 100%;
+    position: relative;
+    top: -17em;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    opacity: 60%;
+    border: none
+}
+
+.caromainContact{
+    position: relative;
+    width: 60%;
+    height: 800px;
+    left: 20%;
+    
+    
+}
+.caromainContact h2{
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    height: auto;
+    font-family: 'Patua One', cursive;
+    font-size: 1.8em;
+    letter-spacing: 0.1em;
+    padding: 0;
+    
+    
+}
+.mainimageContact{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    background: white;
+    
+   
+    
+}
+
+
+.firstboxContact{
+    width: 50%;
+    height: auto;
+    
+    
+
+}
+.firstboxContact img{
+    width: 100%;
+    height: 600px;
+    float: right;
+    margin-top: 10%;
+    font-size: 1em;
+    padding: 1em;
+    z-index: 1;
+}
+
+.secondboxContact{
+    width: 50%;
+    height: 600px;
+    position: absolute;
+    right: 0%;
+    top: 12%;
+    
+   
+    
+
+    
+   
+}
+
+.secondboxContact p{
+    width: 90%;
+    height: 300px;
+    color: black;
+    margin: 0;
+    padding: 0;
+   
+    
+    font-size: 0.5em;
+    font-family: 'Times New Roman', Times, serif;
+    
+   
+}
+
+.secondboxContact p span{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+   
+}
+
+.secondboxContact p .desig{
+    width: 100%;
+    font-size: 1em;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: bold;
+    font-weight: bold;
+    text-decoration: none
+    
+}
+
+.contactUs{
+    width: 100%;
+    height: 600px;
+    background-color: gray;
+    
+}
+
+
+
+.contactDetails{
+
+        position: relative;
+        width: 60%;
+        height: 600px;
+        left: 20%;
+}
+
+.contactDetails img{
+    width: 95%;
+    height: 500px;
+}
+
+.contactText{
+    
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    margin: 0;
+
+}
+
+.contactText h1{
+    width: 95%;
+    text-align: center;
+    font-family: 'Patua One', cursive;
+    font-size: 1.8em;
+    letter-spacing: 0.1em;
+    color: white;
+}
+
+.Dubai,
+.Kerala{
+    width: 50%;
+    height: 400px;
+    color: black;
+    
+    text-align: center;
+}
+
+.Dubai h2,
+.Kerala h2{
+    width: 70%;
+    margin-left: 30%;
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    text-align: left;
+    font-size: 1.7em;
+}
+.Dubai p,
+.Kerala p{
+    width: 70%;
+    margin-left: 30%;
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    font-size: .7em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 992px) {
+
+
+
+
+    .caroMain img{
+        width: 100;
+        height: 500px;
+        
+        transform: scaleX(2);
+        
+    }
+    .aboutCove img{
+        width: 70%;
+        margin-left: 15%;
+        margin-top: 3em;
+    }
+
+    .aboutCove h4{
+        font-size: 0.8em;
+    }
+    .aboutCove p{
+        width: 70%;
+        position: relative;
+        left: 15%;
+        font-size: 1em;
+    }
+    .ongoingProjects h2{
+        font-size: 2em;
+    }
+    .ongoingProjects{
+        width: 95%;
+        height: auto;
+        margin-left: 2%;
+       
+    }
+    .ongoingProjects img{
+        height: 300px;
+        margin-bottom: 1em;
+    }
+
+
+    .services{
+        width: 90%;
+        height: 550px;
+        position: relative;
+        left: 5%;
+    }
+    .services h2{
+        font-size: 2.5em;
+    
+    }
+    .mainimageCaption h5{
+        font-size: 6em;
+    }
+    .services img{
+        height: 400px;
+    }
+
+    .caromainContact{
+        position: relative;
+        width: 80%;
+        height: 600px;
+        left: 10%;
+        
+        
+        
+    }
+    .caromainContact h2{
+        font-size: 2.5em;
+    }
+    .mainimageContact img{
+        width: 100%;
+        height: 300px;
+    
+        
+    }
+    .firstboxContact img{
+        width: 100%;
+        height: 300px;
+        
+        float: right;
+      
+    }
+    
+    .secondboxContact{
+        width: 65%;
+        height: 300px;
+    }
+
+    .secondboxContact p{
+      
+        font-size: 0.8em;
+        
+        
+       
+    }
+    
+    .secondboxContact p span{
+        width: 100%;
+        font-size: 2.5em;
+      
+       
+    }
+    
+    .secondboxContact p .desig{
+       
+        font-size: 1.2em;
+    }
+    .contactDetails{
+
+        position: relative;
+        width: 90%;
+        height: 600px;
+        left: 10%;
+    }
+    .contactText h1{
+       
+    
+        font-size: 2.5em;
+       
+    }
+    .Dubai h2,
+    .Kerala h2{
+    font-size: 2em;
+    text-align: left;
+    margin-left: 5%;
+    }
+    .Dubai p,
+    .Kerala p{
+    font-size: 1em;
+    margin-left: 5%;
+    }
+
+    
+}
